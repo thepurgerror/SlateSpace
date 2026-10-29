@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SlateSpace" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">sans</item>
+        <item name="android:colorAccent">#B8F36B</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:statusBarColor">#0B0E12</item>
+        <item name="android:navigationBarColor">#0B0E12</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">#0B0E12</item>
+    </style>
+    <style name="Theme.SlateSpace.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/splash_background</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_splash_mark</item>
+        <item name="windowSplashScreenAnimationDuration">240</item>
+        <item name="postSplashScreenTheme">@style/Theme.SlateSpace</item>
+    </style>
+</resources>
